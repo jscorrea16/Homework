@@ -1,0 +1,43 @@
+body{
+  background-color: steelblue;
+  margin: 1px;
+}
+
+.center {
+  text-align: center;
+}
+
+.menu{
+  padding: 25px;
+  
+}
+.menu > a{
+  font-size: 20px;
+  font-family: Arial;
+  background-color: white;
+  margin-right: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.3s linear 0s, color 0,3s linear 0s;
+}
+.menu > a:hover{
+  background-color: red;
+  color: white;
+}
+
+.menu1{
+  border: black 1px solid;
+}
+
+h1{
+  font-size: 25px;
+}
+
+h2{
+  font-size: 25px;
+}
+
+h3{
+  font-size: 25px
+}
